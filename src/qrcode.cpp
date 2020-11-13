@@ -240,14 +240,14 @@ void QRcode::create(String message) {
       }
     }
   }
-  if (model==OLED_MODEL)
+  if (model==OLED_MODEL){
     #ifdef OLEDDISPLAY
     display->display();
     #endif
+  }
   if (this->model==EINK_MODEL) {
     #ifdef EINKDISPLAY
       eink->update();
-      delay(2000);
     #endif
   }
 }
