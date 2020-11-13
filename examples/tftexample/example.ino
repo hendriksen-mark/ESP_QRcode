@@ -1,7 +1,6 @@
 /* *********************************************************************************
  * ESP QRcode
  * dependency library :
- *   ESP8266 Oled Driver for SSD1306 display by Daniel Eichborn, Fabrice Weinberg
  *   Adafruit_GFX
  *   Adafruit_ST7735
  *
@@ -11,6 +10,7 @@
  *   TFT SDA(DIN) ---> NodeMCU pin D7 (GPIO13) ---> ESP32 pin 23 (GPIO23)
  * 
  ***********************************************************************************/
+#define TFTDISPLAY
 #include <Arduino.h>
 
 #include <Adafruit_GFX.h>      
