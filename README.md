@@ -32,4 +32,4 @@ define in qrcode.h (or keep all commented an define it in your own code)
 ![qrcode](src/img/tftqr.jpg?raw=true)
 
 ## EINK Example
-![qrcode](src/img/eink.jpg?raw=true)
+![qrcode](src/img/einkqr.jpg?raw=true)
