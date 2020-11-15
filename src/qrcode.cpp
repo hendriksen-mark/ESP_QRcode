@@ -66,15 +66,15 @@ void QRcode::init(){
     #endif
     } else {
       #ifdef TFTDISPLAY
-      ((Adafruit_ST7735 *)tft)->initR(model);
+      //((Adafruit_ST7735 *)tft)->initR(model);
       screenwidth = tft->width();
       screenheight = tft->height(); 
-      //tft->setRotation(1);
       tft->fillScreen(ST77XX_WHITE);
       int min = screenwidth;
       if (screenheight<screenwidth)
         min = screenheight;
       multiply = min/WD;
+      if (multiply>2) multiply=2;
       offsetsX = (screenwidth-(WD*multiply))/2;
       offsetsY = (screenheight-(WD*multiply))/2;
       #endif
@@ -106,15 +106,15 @@ void QRcode::init(uint16_t width, uint16_t height){
       #endif
     } else {
       #ifdef TFTDISPLAY
-      ((Adafruit_ST7789 *)tft)->init(width,height);
+      //((Adafruit_ST7789 *)tft)->init(width,height);
       screenwidth = tft->width();
       screenheight = tft->height(); 
-      //tft->setRotation(1);
       tft->fillScreen(ST77XX_WHITE);
       int min = screenwidth;
       if (screenheight<screenwidth)
         min = screenheight;
       multiply = WD/min;
+      if (multiply>2) multiply=2;
       offsetsX = (screenwidth-(WD*multiply))/2;
       offsetsY = (screenheight-(WD*multiply))/2;
     #endif
