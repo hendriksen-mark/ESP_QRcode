@@ -1,3 +1,9 @@
+*THIS REPO IS BECOME OBSOLETE, THE DEVELOPMENT CONTINUES IN:*
+
+https://github.com/yoprogramo/QRcodeDisplay
+
+Please, take a look...
+
 # ESP QRcode
 
 Just copy the ESP QRcode folder to your Arduino 'libraries' folder. I have included an example sketch.
