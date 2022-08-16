@@ -1,8 +1,8 @@
-*THIS REPO IS BECOME OBSOLETE, THE DEVELOPMENT CONTINUES IN:*
+*THIS REPO IS OBSOLETE, THE DEVELOPMENT CONTINUES IN:*
 
 https://github.com/yoprogramo/QRcodeDisplay
 
-Please, take a look...
+Please, take a look... This repo will not receive furhter updates.
 
 # ESP QRcode
 
